@@ -186,6 +186,7 @@ header{
 .social-media i:hover{
     color: #C6426E;   
 }
+/*Links do Menu*/
 
 /*Conhecimentos*/
 .conhecimentos{
@@ -241,6 +242,9 @@ header{
     font-size: 3rem;
     color: #555;
     margin-bottom: .5rem;
+    margin-top: 3rem;
+    border-bottom: solid 3px #C6426E;
+    margin-bottom: 2rem;
 }
 .sessao-header h2{
     font-family: var(--font-primary);
@@ -249,6 +253,7 @@ header{
     border-bottom: solid 3px #C6426E;
     margin-bottom: 2rem;
 }
+
 
 .conhecimento-header{
     display: flex;
@@ -270,7 +275,6 @@ header{
     font-family: var(--font-secundary);
     margin-top: 1rem;
 }
-
 /*Conhecimentos*/
 
 /*Imagem LGPD*/
@@ -286,10 +290,63 @@ header{
 }
 /*Imagem LGPD*/
 
+/*Projetos*/
+.projetos{
+    display: flex;
+    justify-content: space-evenly ;
+    margin-left: 5rem;
+    margin-right: 1rem;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.card-img-wrapper{
+    width: 30%;
+    height: 30%;
+    border-radius: .5rem;
+
+}
+
+.card-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    opacity: .9;
+}
+
+.card-info{
+    position: absolute;
+    text-align:left;
+    padding-right: 1rem; 
+    align-content: center;  
+}
+
+.card-info h2 {
+    font-family: var(--font-primary);
+    font-size: 2rem;
+    font-weight: 500;
+    color:#C6426E;
+
+}
+
+.card-info h3{
+    font-family: var(--font-secundary);
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: rgb(70, 67, 67);
+}
+
+.projetos2{
+    display: flex;
+    justify-content: space-evenly ;
+    margin-top: 18rem;
+    margin-left: 5rem;
+    margin-right: 1rem;
+}
+/*Projetos*/
 
 
 
-
-
-
-/*Conhecimentos*/
