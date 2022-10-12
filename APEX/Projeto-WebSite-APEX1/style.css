@@ -16,8 +16,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    cursor: pointer;
-   
+    cursor: pointer;   
 }
 
 .show-menu .hamburguer{
@@ -305,8 +304,8 @@ header{
 }
 
 .card-img-wrapper{
-    width: 30%;
-    height: 30%;
+    width: 20%;
+    height: 20%;
     border-radius: .5rem;
 
 }
@@ -347,6 +346,78 @@ header{
     margin-right: 1rem;
 }
 /*Projetos*/
+
+/*Rodapé*/
+.principal {
+    width: 100%;
+    min-height: 250px;
+    margin-top: 20rem;
+    background-color: #444;
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+.principal .boxs{
+    width: 320px;
+    min-height: 150px;
+    padding: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.pricipal .boxs:nth-child(4){
+    width: 400px;
+}
+
+.boxs h2 {
+    font-family: var(--font-primary);
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.boxs p {
+    font-size: var(--font-secundary);
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: justify;
+}
+
+.boxs ul li {
+    margin: 10px 0px ;
+    list-style: none;
+}
+
+.boxs ul li a {
+    font-size: var(--font-secundary);
+    font-size: 1.2rem;
+    color:#ffffff;
+    text-decoration: none;
+
+}
+
+.boxs ul li a:hover{
+    color: #C6426E;
+}
+
+.secundario {
+    width: 100%;
+    min-height: 50px;
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: center;
+}
+
+.secundario p {
+    margin-top: 1rem;
+    font-family: var(--font-action);
+    font-size: 1.1rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
 
 
 
