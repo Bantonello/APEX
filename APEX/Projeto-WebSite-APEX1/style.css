@@ -410,6 +410,7 @@ header{
 
 .secundario p {
     margin-top: 1rem;
+    margin-bottom: 1rem;
     font-family: var(--font-action);
     font-size: 1.1rem;
     color: #ffffff;

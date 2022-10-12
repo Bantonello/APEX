@@ -26,11 +26,32 @@
 }
 /* animação do Título*/
 
+
+@media screen and (max-width:780px){
+    .sessao-conhecimento{
+        flex-direction: column;
+        
+    }
+
+    .sessao-header {
+        width: 100%;
+        text-align: center;
+    }
+
+    .conhecimentos {
+        width: 100%;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+
+    
+}
 /* footer*/
 
 @media(max-width:950px){
     footer {
-        flex-direction: column;        
+        flex-direction: column;    
     }
 
     footer .boxs {
