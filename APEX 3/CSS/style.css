@@ -1,0 +1,302 @@
+body {
+  background-color: #f1f6fc31;
+}
+
+Section,
+footer {
+  padding: 54px 0;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+p {
+  color: #0000009c;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+header {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;  
+}
+
+/* MENU */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul a {
+  color: black;
+  margin: 0 25px;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: block;
+}
+
+nav ul a::after {
+  content: "";
+  background-color: rgb(185, 125, 14);
+  height: 3px;
+  width: 0%;
+  display: block;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+
+nav ul a:hover::after {
+  width: 100%;
+}
+
+/* MENU mobile*/
+nav .menu-icon {
+  cursor: pointer;
+  font-size: 25px;
+  color: rgb(185, 125, 14);
+  display: none;
+}
+
+nav .close-icon {
+  cursor: pointer;
+  display: none;
+  font-size: 30px;
+  color: rgb(185, 125, 14);
+}
+/* MENU mobile*/
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+/* MENU */
+
+/* BANNER */
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.banner .banner-text {
+  margin: 150px;
+  text-align: center;
+  padding: 0 90px;
+}
+
+.banner .banner-text h1 {
+  font-size: 80px;
+  color: black;
+}
+
+.banner .banner-text p {
+  font-size: 20px;
+  color: rgb(83, 81, 81);
+  font-weight: lighter;
+  margin: 18px 0;
+}
+
+.btn {
+  background-color: rgb(185, 125, 14);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline block;
+  transition: 0.1s;
+}
+.btn.animate-btn {
+  animation: animate-outline 1s ease-out infinite;
+}
+.btn:hover {
+  background-color: rgb(146, 99, 12);
+}
+@keyframes animate-outline {
+  from {
+    outline: 0px solid rgb(185, 125, 14);
+  }
+  to {
+    outline: 15px solid rgb(185, 125, 14, 0);
+  }
+}
+/* BANNER */
+
+/*Section01 e 02 */
+.sobre .container {
+  display: flex;
+  align-items: center;
+}
+
+.sobre .sobre-text {
+  width: 50%;
+  padding: 0 40px;
+}
+
+.sobre .sobre-text h3 {
+  font-size: 40px;
+}
+
+.sobre .sobre-text p {
+  margin: 5px 0 10px 0;
+}
+
+.sobre .sobre-img {
+  width: 50%;
+}
+
+.sobre .sobre-img img {
+  width: 100%;
+}
+/*Section01 e 02 */
+
+/*Cards */
+
+.card h3 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.card p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card .card-item {
+  background-color: rgb(236, 236, 175);
+  margin: 15px;
+  border-radius: 14px;
+  text-align: center;
+  width: 350px;
+  transition: 0.3s;
+}
+
+.card .card-item img {
+  border-radius: 100px;
+  width: 100px;
+  display: block;
+  margin: 10px auto;
+}
+
+.card .card-item .nome-user {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.card .card-item .texto {
+  font-size: 15px;
+  padding: 0 15px;
+  transition: 0.3s;
+}
+
+.card .card-item:hover {
+  background-color: rgb(185, 125, 14);
+  margin-top: -5px;
+}
+
+.card .card-item:hover .nome-user,
+.card .card-item:hover .texto {
+  color: white;
+}
+
+/*Cards */
+
+/*Referencias*/
+
+.referencias h3,
+.referencias p {
+  font-size: 40px;
+  text-align: center;
+}
+
+.referencias .container div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.referencias .container img {
+  width: 100px;
+  margin: 20px;
+}
+
+/*Referencias*/
+
+/*Gallery*/
+
+.gallery {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 16px;
+    padding: 0 16px;
+    right: 20px;
+    left: 20px;
+}
+
+.gallery .container h3 {
+    font-size: 40px;
+    text-align: center;
+   
+}
+
+.gallery .container p{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.gallery-itens{
+    width: 300px;
+    height: 300px;
+    border: 10px solid  rgb(236, 236, 175);
+    box-shadow: 5px 5px 5px #0006;
+}
+
+.gallery-itens img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*Gallery*/
+
+/*Footer*/
+.footer {
+  background-color: rgb(236, 236, 175);
+  text-align: center;
+}
+
+.footer i {
+  color: rgb(185, 125, 14);
+  font-size: 19px;
+  background-color: white;
+  padding: 10px;
+  margin: 3px;
+  border-radius: 10px;
+}
+
+.footer p {
+  margin-top: 10px;
+  color: rgb(185, 125, 14);
+}
+/*Footer*/
